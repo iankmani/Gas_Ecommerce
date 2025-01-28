@@ -1,56 +1,16 @@
 
 
 import "../Stylings/Home.css";
-import gaspic from "../assets/Gas_Pics/gas13kg.jpg"
+import HeroSection from "../Components/HeroSection.jsx"
+import FeaturedSec from "../Components/FeaturedSec.jsx";
 
 const Home = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="hero">
-        <h1>Welcome to Gas Ecommerce</h1>
-        <p>Your one-stop shop for all your gas needs. Reliable, affordable, and fast!</p>
-      </section>
-
+     <HeroSection/>
       {/* Featured Section */}
-      <section className="featured">
-        <h2>Featured Products</h2>
-        <div className="product-grid">
-          <div className="product-card">
-            <img
-              src= {gaspic}
-              alt="Product 1"
-              className="product-image"
-            />
-            <h3>Product 1</h3>
-            <p>High-quality gas cylinders.</p>
-            <p className="price">$40.00</p>
-            <button className="add-to-cart">Add to Cart</button>
-          </div>
-          <div className="product-card">
-            <img
-              src= {gaspic}
-              alt="Product 2"
-              className="product-image"
-            />
-            <h3>Product 2</h3>
-            <p>Portable gas stoves for your adventures.</p>
-            <p className="price">$60.00</p>
-            <button className="add-to-cart">Add to Cart</button>
-          </div>
-          <div className="product-card">
-            <img
-              src= {gaspic}
-              alt="Product 3"
-              className="product-image"
-            />
-            <h3>Product 3</h3>
-            <p>Premium accessories for gas appliances.</p>
-            <p className="price">$25.00</p>
-            <button className="add-to-cart">Add to Cart</button>
-          </div>
-        </div>
-      </section>
+     <FeaturedSec/>
       
     </div>
   );
