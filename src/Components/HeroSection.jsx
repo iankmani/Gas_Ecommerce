@@ -1,5 +1,4 @@
 import "../Stylings/Home.css";
-// import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
