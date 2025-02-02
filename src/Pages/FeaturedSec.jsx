@@ -4,7 +4,7 @@ import gaspic from "../assets/Gas_Pics/gas13kg.jpg";
 const FeaturedSec = () => {
   return (
     <div>
-      <section className="featured">
+      <section className="featured" id="featured-products">
         <h2>Featured Products</h2>
         <div className="product-grid">
           <div className="product-card">
